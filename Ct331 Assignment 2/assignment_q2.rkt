@@ -3,8 +3,9 @@
 ;setup
 (provide ins_beg)
 (provide ins_end)
-(provide count_top_level)
+
 (provide count_instances)
+(provide cout_top_level)
 
 ;question A
 (define (ins_beg el lst)
@@ -15,7 +16,7 @@
   (append lst (list el)))
 
 ;question C
-(provide cout_top_level)
+
 (define (cout_top_level lst)
   (length lst))
 
